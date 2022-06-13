@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className='App'>
         <QuoteCard simpson={simpson} />
-        <button type="button" onClick={getSimpson}>Get quote</button>
+        <button type="button" onClick={getSimpson}>Change character</button>
     </div>
     );
 
