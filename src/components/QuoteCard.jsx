@@ -1,18 +1,18 @@
 import React from 'react';
 import './QuoteCard.css';
 
-const QuoteCard = ({ props }) => {
+const QuoteCard = (props) => {
+    console.log("props : ", props)
     return (
-      <div className="QuoteCard">
+    <div className="QuoteCard">
         <img
-          src={props.image}
-          alt={props.character}
+        src={props.simpson.image}
+        alt={props.simpson.character}
         />
-        <h1 >{props.character}</h1>
-        <p>{props.quote}</p>
-        
-      </div>
+        <h1 >{props.simpson.character}</h1>
+        <p>{props.simpson.quote}</p>        
+    </div>
     );
-  };
+};
 
 export default QuoteCard;
